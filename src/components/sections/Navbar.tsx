@@ -1,8 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
-import { FcHome, FcIdea, FcDecision, FcPhone } from "react-icons/Fc"
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/Ai"
+import { FcHome, FcIdea, FcDecision, FcPhone } from "react-icons/fc"
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)

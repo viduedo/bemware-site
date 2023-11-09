@@ -8,7 +8,7 @@ import {
   AiOutlineCode,
   AiOutlineTeam,
   AiOutlineRocket,
-} from "react-icons/Ai"
+} from "react-icons/ai"
 
 export default function Services() {
   return (
