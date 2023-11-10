@@ -1,14 +1,12 @@
 import { Html, Head, Main, NextScript } from "next/document"
-import { Analytics } from "@vercel/analytics/react"
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="pt-br">
       <Head />
       <body>
         <Main />
         <NextScript />
-        <Analytics />
       </body>
     </Html>
   )
