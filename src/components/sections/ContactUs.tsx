@@ -4,18 +4,20 @@ export default function ContactUs() {
   return (
     <section
       id="contactus"
-      className="relative z-10 overflow-hidden bg-white py-20 dark:bg-dark lg:py-[120px]"
+      className="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]"
     >
       <div className="container">
         <div className="-mx-4 flex flex-wrap lg:justify-between">
           <div className="w-full mx-4 px-4 lg:w-1/2 xl:w-6/12">
             <div className="mb-12 max-w-[570px] lg:mb-0">
-              <span className="mb-4 block text-base font-semibold text-primary">
-                Contato
-              </span>
-              <h2 className="mb-6 text-[32px] font-bold uppercase text-dark sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-                FALE CONOSCO
-              </h2>
+              <div className="px-4 pl-4 mb-6 border-l-4 border-violet-600">
+                <span className="text-sm text-gray-600 uppercase ">
+                  Contato
+                </span>
+                <h1 className="mt-2 text-3xl font-black text-black md:text-5xl">
+                  Fale Conosco
+                </h1>
+              </div>
               <p className="mb-9 text-base leading-relaxed text-body-color dark:text-dark-6">
                 Venha nos conhecer! Preencha o formulário ou entre em contato
                 através dos nossos canais de atendimento ao cliente.

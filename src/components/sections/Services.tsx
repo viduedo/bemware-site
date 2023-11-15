@@ -48,53 +48,53 @@ export default function Services() {
             title="UX/DESIGN"
             details="Realizamos o design de seu website/aplicativo antes de produzir o software. Pensando em uma melhor experiência de usuário."
             icon={
-              <AiOutlineRadiusUpleft className="w-36 h-36 text-purple-600" />
+              <AiOutlineRadiusUpleft className="w-36 h-36 text-violet-600" />
             }
           />
           <ServiceCard
             title="Sistemas Personalizados"
             details="Trabalhamos com desenvolvimento de software, produzindo sistemas personalizados como websites/aplicativos únicos."
-            icon={<AiOutlineCode className="w-36 h-36 text-purple-600" />}
+            icon={<AiOutlineCode className="w-36 h-36 text-violet-600" />}
           />
           <ServiceCard
             title="Hospedagem de Sistemas"
             details="Realizamos a hospedagem de seus sistemas em nossa plataforma, de uma maneira que fique sempre disponível a um custo mensal que cabe no seu bolso."
-            icon={<AiOutlineRocket className="w-36 h-36 text-purple-600" />}
+            icon={<AiOutlineRocket className="w-36 h-36 text-violet-600" />}
           />
           <ServiceCard
             title="Computação em Nuvem"
             details="Ajustamos seu modelo de negócio a estruturas de datacenter em cloud, somos especialistas no assunto"
             icon={
-              <AiOutlineCloudServer className="w-36 h-36 text-purple-600" />
+              <AiOutlineCloudServer className="w-36 h-36 text-violet-600" />
             }
           />
           <ServiceCard
             title="E-mail Corporativo"
             details="Oferecemos planos de e-mail para a sua organização. O controle e gestão dos e-mails ficam por nossa conta."
-            icon={<AiOutlineMail className="w-36 h-36 text-purple-600" />}
+            icon={<AiOutlineMail className="w-36 h-36 text-violet-600" />}
           />
           <ServiceCard
             title="Servidor de Arquivos"
             details="Realizamos implantação de servidor de arquivos com AD/DS, para armazenamento eficiente e seguro das informações. Realizamos o controle e gestão dos usuários de rede."
-            icon={<AiOutlineHdd className="w-36 h-36 text-purple-600" />}
+            icon={<AiOutlineHdd className="w-36 h-36 text-violet-600" />}
           />
 
           <ServiceCard
             title="VPN"
             details="Implantamos conexões VPN para comunicações restritas e seguras entre filiais de sua empresa, assim se torna mais fácil e segura a transferência de dados."
-            icon={<AiOutlineLock className="w-36 h-36 text-purple-600" />}
+            icon={<AiOutlineLock className="w-36 h-36 text-violet-600" />}
           />
           <ServiceCard
             title="Suporte Técnico"
             details="Oferecemos o suporte técnico para o seu negócio com atendimento in-loco ou remoto."
             icon={
-              <AiOutlineCustomerService className="w-36 h-36 text-purple-600" />
+              <AiOutlineCustomerService className="w-36 h-36 text-violet-600" />
             }
           />
           <ServiceCard
             title="Terceirização de TI"
             details="Terceirização total da TI de sua empresa, através da gestão de custos, fornecedores de ti, planejamento e atendimento de problemas técnicos."
-            icon={<AiOutlineTeam className="w-36 h-36 text-purple-600" />}
+            icon={<AiOutlineTeam className="w-36 h-36 text-violet-600" />}
           />
         </div>
       </div>

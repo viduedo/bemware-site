@@ -10,7 +10,7 @@ export default function AboutUs() {
         <div className="flex flex-wrap ">
           <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0 ">
             <div className="lg:max-w-md">
-              <div className="px-4 pl-4 mb-6 border-l-4 border-blue-500">
+              <div className="px-4 pl-4 mb-6 border-l-4 border-violet-600">
                 <span className="text-sm text-gray-600 uppercase dark:text-gray-400">
                   Quem Somos?
                 </span>
@@ -36,7 +36,7 @@ export default function AboutUs() {
               <div className="flex flex-wrap items-center">
                 <div className="w-full px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
                   <div className="p-6 bg-white dark:bg-gray-900">
-                    <span className="text-blue-500 dark:text-blue-400">
+                    <span className="text-violet-600">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -59,7 +59,7 @@ export default function AboutUs() {
                 </div>
                 <div className="w-full px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
                   <div className="p-6 bg-white dark:bg-gray-900">
-                    <span className="text-blue-500 dark:text-blue-400">
+                    <span className="text-violet-600">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -86,7 +86,7 @@ export default function AboutUs() {
                 </div>
                 <div className="w-full px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
                   <div className="p-6 bg-white dark:bg-gray-900">
-                    <span className="text-blue-500 dark:text-blue-400">
+                    <span className="text-violet-600">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -108,7 +108,7 @@ export default function AboutUs() {
                 </div>
                 <div className="w-full px-4 mb-6 sm:w-1/2 md:w-1/2 lg:mb-6">
                   <div className="p-6 bg-white dark:bg-gray-900">
-                    <span className="text-blue-500 dark:text-blue-400">
+                    <span className="text-violet-600">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
