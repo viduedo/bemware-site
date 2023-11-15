@@ -8,7 +8,7 @@ export default function ContactUs() {
     >
       <div className="container">
         <div className="-mx-4 flex flex-wrap lg:justify-between">
-          <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
+          <div className="w-full mx-4 px-4 lg:w-1/2 xl:w-6/12">
             <div className="mb-12 max-w-[570px] lg:mb-0">
               <span className="mb-4 block text-base font-semibold text-primary">
                 Contato
@@ -17,8 +17,8 @@ export default function ContactUs() {
                 FALE CONOSCO
               </h2>
               <p className="mb-9 text-base leading-relaxed text-body-color dark:text-dark-6">
-                Venha nos conhecer! Preencha o formulário ao lado ou entre em
-                contato através dos nossos canais de atendimento ao cliente.
+                Venha nos conhecer! Preencha o formulário ou entre em contato
+                através dos nossos canais de atendimento ao cliente.
               </p>
               <div className="mb-8 flex w-full max-w-[370px]">
                 <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">

@@ -47,8 +47,15 @@ export default async function POST(req: NextApiRequest, res: NextApiResponse) {
 
   try {
     await sendMailPromise()
-    return res.status(200).json({ message: "Email sent" })
+    return res
+      .status(200)
+      .json({
+        message:
+          "Mensagem enviada com sucesso! Em breve entraremos em contato.",
+      })
   } catch (err) {
-    return res.status(500).json({ error: err })
+    return res.status(500).json({
+      error: "Ops... Parece que ocorreu um problema no envio da mensagem.",
+    })
   }
 }
