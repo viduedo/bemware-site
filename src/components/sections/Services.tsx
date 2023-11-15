@@ -12,30 +12,32 @@ import {
 
 export default function Services() {
   return (
-    <section id="services" className="pb-12  dark:bg-dark lg:pb-[90px] ">
+    <section id="services" className="pb-12 dark:bg-dark lg:pb-[90px] ">
       <div className="container mx-auto">
         <div className="flex flex-wrap">
           <div className="w-full px-4">
-            <div className="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
+            <div className="mx-auto mb-12 max-w-[810px] text-center lg:mb-20">
               <span className="mb-2 block text-lg font-semibold text-primary">
                 Nossos Serviços
               </span>
               <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-dark sm:text-4xl md:text-[40px]">
                 O Que Oferecemos
               </h2>
-              <p className="text-base text-body-color dark:text-dark-6">
-                Na era digital de hoje, os serviços de TI tornaram-se um
+              <p className="text-base font-mono text-dark-6 border-2  border-dashed border-violet-500 p-4">
+                Na era digital de hoje, os <b>serviços de TI</b> tornaram-se um
                 componente essencial das operações comerciais. As empresas
                 dependem fortemente da sua infraestrutura de TI para manter
                 fluxos de trabalho eficientes, aumentar a produtividade e
                 permanecerem competitivas nos seus respetivos mercados.
               </p>
               <br />
-              <p className="text-base text-body-color dark:text-dark-6">
-                A necessidade de serviços de TI não se limita às grandes
-                corporações; mesmo as pequenas e médias empresas necessitam de
-                suporte de TI para gerir as suas operações diárias sem
-                problemas.
+              <p className="text-base font-mono text-dark-6 border-2 border-dashed border-violet-500 p-4">
+                <b>
+                  A necessidade de serviços de TI não se limita às grandes
+                  corporações!
+                </b>
+                <br /> Mesmo as pequenas e médias empresas necessitam de suporte
+                de TI para gerir as suas operações diárias sem problemas.
               </p>
             </div>
           </div>
@@ -118,7 +120,7 @@ function ServiceCard(serviceCardProps: ServiceCardProps) {
           <h4 className="mb-[14px] text-2xl font-semibold text-dark">
             {title}
           </h4>
-          <p className="text-body-color dark:text-dark-6">{details}</p>
+          <p className="text-dark-6">{details}</p>
         </div>
       </div>
     </>

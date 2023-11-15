@@ -1,6 +1,6 @@
 export default function Brands() {
   return (
-    <section className="bg-white dark:bg-dark ">
+    <section className="bg-white dark:bg-dark py-12">
       <div className="container mx-auto">
         <div className="flex flex-wrap ">
           <div className="w-full px-4">

@@ -7,7 +7,7 @@ export default function Hero() {
   md:grid-cols-2 items-center"
     >
       <div>
-        <h4 className="font-bold  text-[18px] bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
+        <h4 className="font-bold text-[18px] bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
           Olá, Somos a Bemware!
         </h4>
         <h1 className="font-extrabold text-[45px]">
@@ -48,7 +48,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="py-14 px-12">
+      <div className="pt-14 pb-0 px-12">
         <Image
           priority={true}
           src="/hero.png"
